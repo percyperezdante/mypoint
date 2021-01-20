@@ -9,6 +9,7 @@ pipeline {
             steps{
                 script{
                     println("... ${VARS1}")
+                    println("... ${BRANCH_NAME}")
 
                 }
             }
@@ -17,4 +18,4 @@ pipeline {
         
     }
     
-}
+
