@@ -14,7 +14,7 @@ pipeline {
                     println("...dddddd  ${env.GLOBAL_PIPELINE_INITIALIZED}")
                     println("..workspace ${WORKSPACE}")
                     sh '''
-                        mkdir test222
+                        mkdir  -p test222
                         ls -ltR
                         pwd
                     '''
