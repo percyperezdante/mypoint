@@ -9,7 +9,7 @@ pipeline {
             steps{
                 script{
                     println("... ${VARS1}")
-                    println("...dddddd  ${VARS1}")
+                    println("...dddddd  ${BRANCH_NAME}")
 
                 }
             }
