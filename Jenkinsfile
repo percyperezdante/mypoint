@@ -15,7 +15,7 @@ pipeline {
                     println("..workspace ${WORKSPACE}")
                     sh '''
                         mkdir test222
-                        ls -ltr
+                        ls -ltR
                         pwd
                     '''
 
