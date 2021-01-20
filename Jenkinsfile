@@ -13,6 +13,7 @@ pipeline {
                     env.GLOBAL_PIPELINE_INITIALIZED="true"
                     println("...dddddd  ${env.GLOBAL_PIPELINE_INITIALIZED}")
                     println("..workspace ${WORKSPACE}")
+                    println("..user ${USER}")
                     sh '''
                         mkdir  -p test222
                         ls -ltR ${WORKSPACE}
