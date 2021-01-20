@@ -13,6 +13,11 @@ pipeline {
                     env.GLOBAL_PIPELINE_INITIALIZED="true"
                     println("...dddddd  ${env.GLOBAL_PIPELINE_INITIALIZED}")
                     println("..workspace ${WORKSPACE}")
+                    sh '''
+                        mkdir test222
+                        ls -ltr
+                        pwd
+                    '''
 
 
                 }
