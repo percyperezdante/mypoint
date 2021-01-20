@@ -10,7 +10,9 @@ pipeline {
                 script{
                     println("... ${VARS1}")
                     println("...dddddd  ${BRANCH_NAME}")
+                    env.GLOBAL_PIPELINE_INITIALIZED="true"
                     println("...dddddd  ${env.GLOBAL_PIPELINE_INITIALIZED}")
+
 
                 }
             }
