@@ -12,6 +12,7 @@ pipeline {
                     println("...dddddd  ${BRANCH_NAME}")
                     env.GLOBAL_PIPELINE_INITIALIZED="true"
                     println("...dddddd  ${env.GLOBAL_PIPELINE_INITIALIZED}")
+                    println("..workspace ${WORKSPACE}")
 
 
                 }
