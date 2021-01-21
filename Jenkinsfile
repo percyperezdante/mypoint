@@ -19,6 +19,13 @@ pipeline {
                         ls -ltR ${WORKSPACE}
                         pwd
                     '''
+                    dir ("${WORKSPACE}/test222"){
+                        sh '''
+                            echo "test" > hi
+                            cat hi
+                            pwd
+                        '''
+                    }
 
 
                 }
