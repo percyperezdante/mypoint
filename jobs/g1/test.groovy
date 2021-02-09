@@ -1,4 +1,4 @@
-@Library('mylib')
+@Library('mylib')_
 // execute echo command
 job('example-1') {
     steps {
